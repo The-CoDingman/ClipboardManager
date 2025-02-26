@@ -45,7 +45,7 @@ class ClipboardManager {
         else {
             Output .= "No values stored"
         }
-        MsgBox(Trim(Output), "ClipboardManager.Dump()", "242144")
+        MsgBox(Trim(Output), "ClipboardManager.Dump()", "262144")
     }
 
     static SetLimit(Limit) {
